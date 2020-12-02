@@ -3,7 +3,11 @@ package com.example.ihavetofly;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.view.MotionEvent;
 import android.view.SurfaceView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class GameView extends SurfaceView implements Runnable {
 
@@ -13,9 +17,8 @@ public class GameView extends SurfaceView implements Runnable {
     public static float screenRatioX, screenRatioY;
     private int ScreenX, ScreenY;
     private Paint paint;
-    private List<Bullet> bullets;
-    private Flight flight;
-    private Background background1, background2; 
+    private List<com.example.ihavetofly.Bullet> bullets;
+    private com.example.ihavetofly.Flight flight;
 
     public GameView(Context context, int screenX, int screenY) {
         super(context);
@@ -66,14 +69,14 @@ public class GameView extends SurfaceView implements Runnable {
         if (flight.y < 0)
             flight.y = 0;
 
-        if (flight.y >= screenY - flight.height)
-            flight.y = screenY - flight.height;
+        if (flight.y >= this.ScreenY - flight.height)
+            flight.y = this.ScreenY - flight.height;
         
-        List<Bullet> trash = new ArrayList<>();
+        List<com.example.ihavetofly.Bullet> trash = new ArrayList<>();
 
-        for (Bullet bullet : bullets) {
+        for (com.example.ihavetofly.Bullet bullet : bullets) {
 
-            if (bullet.x > screenX)
+            if (bullet.x > this.ScreenX)
                 trash.add(bullet);
 
             bullet.x += 50 * screenRatioX;
@@ -129,13 +132,13 @@ public class GameView extends SurfaceView implements Runnable {
 
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
-                if (event.getX() < screenX / 2) {
+                if (event.getX() < this.ScreenX / 2) {
                     flight.isGoingUp = true;
                 }
                 break;
             case MotionEvent.ACTION_UP:
                 flight.isGoingUp = false;
-                if (event.getX() > screenX / 2)
+                if (event.getX() > this.ScreenX / 2)
                     flight.toShoot++;
                 break;
         }
@@ -146,8 +149,6 @@ public class GameView extends SurfaceView implements Runnable {
         
          public void newBullet() {
 
-        if (!prefs.getBoolean("isMute", false))
-            soundPool.play(sound, 1, 1, 0, 0, 1);
 
         Bullet bullet = new Bullet(getResources());
         bullet.x = flight.x + flight.width;

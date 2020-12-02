@@ -1,12 +1,14 @@
-package com.heyletscode.ihavetofly;
+package com.example.ihavetofly;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
 
-import static com.heyletscode.ihavetofly.GameView.screenRatioX;
-import static com.heyletscode.ihavetofly.GameView.screenRatioY;
+import com.example.ihavetofly.R;
+
+import static com.example.ihavetofly.GameView.screenRatioX;
+import static com.example.ihavetofly.GameView.screenRatioY;
 
 public class Bullet {
 
