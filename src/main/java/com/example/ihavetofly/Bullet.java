@@ -5,8 +5,6 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
 
-import com.example.ihavetofly.R;
-
 import static com.example.ihavetofly.GameView.screenRatioX;
 import static com.example.ihavetofly.GameView.screenRatioY;
 
