@@ -3,7 +3,7 @@
 #Aplikasi bisa dicoba [disini](https://github.com/ahmaduunnail/UKL-Android_IHaveToFly/raw/master/release/app-release.apk)
 
 Built with: Java
-![video](https://github.com/ahmaduunnail/UKL-Android_IHaveToFly/raw/master/img/2020-12-03%2019-35-20.mp4)
+![video](https://github.com/ahmaduunnail/UKL-Android_IHaveToFly/blob/master/img/ezgif-4-8b03994fa968.gif)
 #
 ![1](https://github.com/ahmaduunnail/UKL-Android_IHaveToFly/blob/master/img/Screenshot_1606998961.png?raw=true)
 #
