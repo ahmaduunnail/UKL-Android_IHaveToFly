@@ -2,11 +2,13 @@
 
 #Aplikasi bisa dicoba [disini](https://github.com/ahmaduunnail/UKL-Android_IHaveToFly/raw/master/release/app-release.apk)
 
-#Built with: Java
-#Anggota Kelommpok:
-#1. Ahmadun Na'il-04
-#2. Asawinka Haritsuddin-07
-#3. Evanreygo Surendraveda-13
+# Built with: Java
+
+#
+# Anggota Kelommpok:
+# 1. Ahmadun Na'il-04
+# 2. Asawinka Haritsuddin-07
+# 3. Evanreygo Surendraveda-13
 
 #
 ![video](https://github.com/ahmaduunnail/UKL-Android_IHaveToFly/blob/master/img/ezgif-4-8b03994fa968.gif)
