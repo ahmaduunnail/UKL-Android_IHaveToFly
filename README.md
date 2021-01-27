@@ -1,17 +1,15 @@
 # UKL-Android_IHaveToFly
 
-Adalah Aplikasi yang berisi game simple shooter yang mana jika kita menembak burung maka akan mendapat skor sedangkan jika tidak game over, selain itu jika burung tidak di tembak maka akan game over juga
+Adalah Aplikasi game simple shooter, jika kita menembak burung maka akan mendapat skor, sedangkan jika tidak game over, selain itu jika burung tidak di tembak maka akan game over saat melewati batas layar.
 
-# Aplikasi bisa dicoba [disini](https://github.com/ahmaduunnail/UKL-Android_IHaveToFly/raw/master/release/app-release.apk)
+### Aplikasi bisa dicoba [disini](https://github.com/ahmaduunnail/UKL-Android_IHaveToFly/raw/master/release/app-release.apk)
 
-# Built with: Java
+### Built with: Java
 
-# Anggota Kelommpok:
-# 1. Ahmadun Na'il-04
-# 2. Asawinka Haritsuddin-07
-# 3. Evanreygo Surendraveda-13
-
-#
+## Anggota Kelommpok:
+### 1. Ahmadun Na'il-04
+### 2. Asawinka Haritsuddin-07
+### 3. Evanreygo Surendraveda-13
 ![video](https://github.com/ahmaduunnail/UKL-Android_IHaveToFly/blob/master/img/ezgif-4-8b03994fa968.gif)
 #
 ![1](https://github.com/ahmaduunnail/UKL-Android_IHaveToFly/blob/master/img/Screenshot_1606998961.png?raw=true)
